@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head-title{
+    background-color: white;
+    height: 100px;
+     width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+   
+
+
+}
+nav{
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+.logo{
+    height: 31px;
+    width: 187px;
+    position: relative;
+    right: 30px;
+    top: 12px;
+}
+span{
+    font-size: 24px;
+    font-weight: 300;
+    font-family: sans-serif;
+    position: relative;
+    right: 38px;
+    top: 5px;
+    color: rgb(55, 55, 201);
+}
+input{
+    width: 760px;
+    height: 40px;
+    background-color: #f4f5f4;
+    border: none;
+    border-radius: 150px;
+    text-align: center;
+}
+.sea{
+   
+    position: relative;
+    top: 5px;
+    left: 50px;
+}
+
+
+.head-title .flag{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    left: 70px;
+    
+    
+}
+.sub-head{
+    background-color: white;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    top: 23px;
+    z-index: 1;
+
+}
+.sub-head p{
+    position: relative;
+    left: 20px;
+    margin-top: 100px;
+    cursor: pointer;
+
+}
+
+
+.arrow{
+    width: 8px;
+    height: 8px;
+    position: relative;
+    top: 1px;
+    left: 2px;
+}
+.image-head{
+    display: flex;
+    background-color:white;
+    margin-top: 200px;
+
+}
+.image-head img{
+    height: 429px;
+    width: 572px;
+}
+.image-head .head1{
+    position: relative;
+    top: 180px;
+    left: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.image-head .head2{
+    position: relative;
+    top: 240px;
+    right: 368px;
+    font-size: 16px;
+}
+
+/* third page start */
+.third-page .image-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 900px;
+    align-items: center;
+}
+
+.third-page .image-container .image-1{
+    width: 692px;
+    height: 692px;
+    background-color: red;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("images1/image2.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.third-page .image-container .image-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.third-page .image-container .image-2{
+    width: 692px;
+    height: 692px;
+    background-color: blue;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("images1/image3.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.third-page .image-container .image-2 img{
+    width: 100%;
+    height: 100%;
+}
+/* third page end */
+
+.paragrah-head{
+    height: 430px;
+    margin-top: 0;
+}
+.paragrah-head .edito{
+    position: relative;
+    top: 60px;
+    left: 50px;
+    width: 512px;
+}
+.edito .h1{
+    font-size: 300px;
+    font-weight: 600px
+
+}
+.para{
+    width: 572px;
+    height: 312px;
+    position: relative;
+    top: 100px;
+    left: 46px;
+    
+}
+.para p{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500px;
+    
+}
+.we{
+    width: 811px;
+    height: 114px;
+    position: absolute;
+    left: 700px;
+    position: relative;
+    bottom: 290px;
+}
+footer{
+    height: 420px;
+    background-color: rgb(55, 55, 201);
+    overflow: hidden;
+    z-index: 2;
+}
+.all{
+    display: flex;
+    position: absolute;
+    left: 500px;
+    position: relative;
+    top: 80px;
+    
+}
+.new {
+    color: white;
+}
+.shop{
+    position: relative;
+    left: 200px;
+    color: white;
+}
+.legal{
+    position: relative;
+    left: 400px;
+    color: white;
+}
+
+.p1 p{
+    width: 273px;
+
+}
+.all2{
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 495px;
+    color: white;
+}
+.p3{
+    position: relative;
+    left: 36px;
+}
+.main{
+    position: relative;
+    left: 100px;
+}
+.fbicon{
+    border-color:black;
+}
+.icon{
+    display: flex;
+    position: absolute;
+    left: 100px;
+}
+.twiticon{
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+.dec{
+    position:relative;
+    top: 200px;
+    left: 65px;
+}
+.term{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+
+}
+.term {
+    position: relative;
+    left: 30px;
+    color: white;
+
+}
+.use{
+    float: right;
+    position: relative;
+    top: 180px;
+    right: 500px;
+    color: white;
+}
+
